@@ -6,6 +6,8 @@ on:
 
 jobs:
   test:
+    runs-on: ubuntu-latest
+    
     steps:
       - name: Download SCA-Bom-Detect
         run: curl -s https://download.scantist.io/sca-bom-detect-v4.5.jar --output sca-bom-detect-v4.5.jar
