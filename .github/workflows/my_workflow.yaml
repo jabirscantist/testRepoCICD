@@ -1,3 +1,9 @@
+name: My Workflow
+on:
+  push:
+    branches:
+      - main  # Adjust branch name as needed
+
 jobs:
   test:
     steps:
